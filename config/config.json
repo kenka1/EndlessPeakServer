@@ -16,6 +16,7 @@
     "host": "localhost",
     "user": "user",
     "password": "user123",
+    "db_threads": 4,
     "tables": {
       "accounts_table": "accounts"
     }

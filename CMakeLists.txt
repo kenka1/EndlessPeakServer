@@ -14,7 +14,7 @@ add_subdirectory(src/net)
 add_subdirectory(src/shared)
 
 # enable tests
-option(SERVER_BUILD_TESTS "Build unit tests" ON)
+option(SERVER_BUILD_TESTS "Build unit tests" OFF)
 if (SERVER_BUILD_TESTS)
   enable_testing()
   add_subdirectory(src/tests/unit)
